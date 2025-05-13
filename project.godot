@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="Karyel: Beyond The Universe of Power and Professionalism"
+run/main_scene="uid://8ewn0pa3s3jm"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://scenes/core/game_manager.gd"
